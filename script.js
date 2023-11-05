@@ -19,3 +19,11 @@ add.addEventListener('click', function () {
         input.value = "";
     }
 });
+
+let form = document.getElementById('form');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert("Form submit!");
+    console.log(document.getElementById('name').value);
+});

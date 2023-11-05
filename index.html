@@ -28,21 +28,22 @@
       </nav>
     </header>
     <main class="mt-5">
-      <p>
+      <!--Paragrafusok-->
+      <p class="paragraph1">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus iusto
         voluptas ducimus nam minus recusandae nulla adipisci blanditiis dolorum.
         Accusamus.
       </p>
-      <p>
+      <p id="paragraph2">
         Debitis minima vero quia optio explicabo vel voluptatibus labore natus,
         soluta quae corporis. Nesciunt, dolore. Ea quae autem similique cum!
       </p>
-      <p>
+      <p class="paragraph3">
         Voluptatem recusandae assumenda eligendi necessitatibus consequuntur
         iure, aut ad id voluptate nesciunt doloremque culpa quisquam. Sit alias
         ab eos voluptatibus!
       </p>
-
+<!--Listak-->
       <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -55,11 +56,80 @@
       </ol>
       <input type="text" id="addToList" value="">
       <button type="button" id="add">Add</button>
+<!--Kepek-->
       <div class="row justify-content-center align-items-center g-2 m-4">
         <div class="col"><img class="img" src="https://picsum.photos/id/1025/600/400" alt=""></div>
         <div class="col"><img src="https://picsum.photos/id/1020/600/400" alt=""></div>
         <div class="col"><img src="https://picsum.photos/id/237/600/400" alt=""></div>
       </div>
+<!--Linkek-->
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://www.facebook.com/">Facebook</a>
+<!--Form-->
+      <div class="mb-3 ">
+        <form id="form">
+        <label for="name" class="form-label">Name</label>
+        <input type="text"
+          class="form-control" name="name" id="name" required>
+        
+
+          <label for="emailad" class="form-label">E-mail</label>
+        <input type="email"
+          class="form-control" name="emailad" id="emailad" required>
+
+          <label for="age" class="form-label">Age</label>
+        <input type="number"
+          class="form-control" name="age" id="age" required>
+
+          <label for="time" class="form-label">Time</label>
+        <input type="time"
+          class="form-control" name="time" id="time" required>
+
+        <button type="submit">Beküld</button>
+      </form>
+      </div>
+<!--Táblázat-->
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-10oh" colspan="3">Hetfo</th>
+            <th class="tg-10oh">Csütörtök</th>
+            <th class="tg-10oh">Pentek</th>
+            <th class="tg-10oh">Szombat</th>
+            <th class="tg-10oh">Vasarnap</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-fniy">1</td>
+            <td class="tg-fniy">4</td>
+            <td class="tg-fniy">7</td>
+            <td class="tg-fniy">10</td>
+            <td class="tg-fniy">13</td>
+            <td class="tg-fniy">16</td>
+            <td class="tg-fniy">19</td>
+          </tr>
+          <tr>
+            <td class="tg-csb1">2</td>
+            <td class="tg-csb1">5</td>
+            <td class="tg-csb1">8</td>
+            <td class="tg-csb1">11</td>
+            <td class="tg-csb1">14</td>
+            <td class="tg-csb1">17</td>
+            <td class="tg-csb1">20</td>
+          </tr>
+          <tr>
+            <td class="tg-n6tu">3</td>
+            <td class="tg-n6tu">6</td>
+            <td class="tg-n6tu">9</td>
+            <td class="tg-n6tu">12</td>
+            <td class="tg-n6tu">15</td>
+            <td class="tg-n6tu">18</td>
+            <td class="tg-n6tu">21</td>
+          </tr>
+        </tbody>
+        </table>
+      
     </main>
     <footer>
       <!-- place footer here -->
